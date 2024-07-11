@@ -1,0 +1,278 @@
+*{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;    
+}
+.heading{
+    margin-top: 15px;
+}
+
+.portfolioheading{
+    display: inline;
+    margin-left: 80px;
+    font-size: 50px;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.list{
+    display: inline;
+    margin-left: 40%;
+}
+.list li{
+    display: inline;
+    font-family: "Arvo", serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
+.list li a{
+    text-decoration: none;
+    word-spacing: 45px;
+
+}
+.list li a:hover{
+    color: rgb(129, 68, 121);
+    cursor: pointer;
+}
+.p{
+    color: rgb(129, 68, 121);
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutme{
+    flex-basis: 60%;
+
+}
+.aboutme p{
+    font-size: 27px;
+    margin-top: 130px;
+    margin-left: 80px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.aboutme h1{
+    font-size: 50px;
+    margin-left: 80px;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.anujimage1{
+    flex-basis: 37%;
+}
+.anujimage1 img{
+    margin-top: 100px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 0px;
+    transition: 0.5s;
+}
+.anujimage1 img:hover{
+    transform: scale3d(1.1,1.1,1);
+}
+.anuj{
+    color: rgb(129, 68, 121) ;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.photo{
+    flex-basis: 30%;
+
+}
+.photo img{
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 80px;
+    transition: 0.5s;
+
+}
+.photo img:hover{
+    transform: scale3d(1.1,1.1,1);
+
+}
+.text1{
+    flex-basis: 30%;
+}
+.text2{
+    flex-basis: 30%;
+}
+.text1  h1{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal; 
+}
+.text1 h3{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color:rgb(129, 68, 121) ;
+
+
+}
+.text1 p{
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.text2 h1{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text2 h3{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color:rgb(129, 68, 121) ;
+
+}
+.text2 li{
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.projects{
+    margin-top: 20px;
+    height: 500px;
+    margin-left:80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    row-gap: 50px;
+}
+.projecthead{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px; 
+    margin-left:80px;
+    margin-top: 100px;
+    padding-top: 30px;
+
+}
+
+.pro1{
+    height: 350px;
+    width: 250px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    transform:scale(1);
+    transition: 0.5s;
+}
+.pro1 img{
+    object-fit: contain;
+    object-position: center;
+    width: 85%;
+    margin-left: 7%;
+    height: 250px;
+    
+}
+.pro1:hover{
+    transform: scale(1.07);
+}
+
+.textunderimg{
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 9%;
+  margin-top: 0px;
+}
+
+.textunderimg a{
+    text-decoration: none;
+    
+}
+
+.textunderimg a:hover{
+    color: rgb(129, 68, 121);
+}
+
+.contact h1{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px; 
+}
+form input , form textarea{
+    width: 500px;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border: 1px solid rgb(129, 68, 121);
+    border-radius: 6px;
+    outline: none;
+    background:black;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(129, 68, 121);
+    transition: 0.5s;
+
+}
+#heading,#projects,#Education,#contact{
+    transition: 0.5s;
+}
+.contact{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.leftside{
+    flex-basis: 45%;
+    margin-left: 80px;
+}
+.rightside{
+    flex-basis: 50%;
+}
+.leftside table tr td img{
+    height: 30px;
+    width: 30px;
+}
+.leftside table tr td{
+    font-size: 30px;
+    font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;   
+  padding: 10px;
+}
+.contactspan{
+    color: rgb(129, 68, 121);
+}
+.mail,.number{
+    color: rgb(129, 68, 121);
+}
+.mainone{
+    height: 80px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+}
+  

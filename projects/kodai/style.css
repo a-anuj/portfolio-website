@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+}
+.slideshow img{
+    height: 350px;
+    width: 400px;
+}
+
+.header{
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+}
+.header h1{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+.header h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+.table{
+    background-color:azure;
+    padding: 20px;    
+}
+.table table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+.table table tr,.table table td{
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.table h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
+
+.form{
+    margin-top: 30px;
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-bottom: 100px;
+}
+.form form h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.tablename,.tableemail{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.name,.email{
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.row1,.row1 td{
+    padding: 10px;
+
+}
+.row2,.row2 td{
+    padding: 10px;
+}
+.submit button{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: none;
+    cursor: pointer;
+}
+.submit button:hover{
+    background-color: azure;
+}
+.submit{
+    font-size: 14px;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
